@@ -1,0 +1,134 @@
+//Import fonts
+@font-face {
+    font-family: Gotham-Book;
+    src: url('/assets/fonts/Gotham-Book.otf');
+  }
+  
+  @font-face {
+    font-family: Gotham-Medium;
+    src: url('/assets/fonts/Gotham-Medium.otf');
+  }
+  
+  @font-face {
+    font-family: Gotham-Bold;
+    src: url('/assets/fonts/Gotham-Bold.otf');
+  }
+  
+  @font-face {
+    font-family: Gotham-Light;
+    src: url('/assets/fonts/Gotham-Light.otf');
+  }
+  
+  @font-face {
+    font-family: Gotham-Black;
+    src: url('/assets/fonts/Gotham-Black.otf');
+  }
+  
+  
+  
+  
+  // Custom Variables
+  
+  $footer-height: 50px;
+  $navbar-height: 50px;
+  $footer-color: #1F3D4A;
+  
+  
+  // Remove the !default to each variable that is going to be overriden.
+  
+  $white:  #fff !default;
+  $gray-100: #f8f9fa !default;
+  $gray-200: #e9ecef !default;
+  $gray-300: #dee2e6 !default;
+  $gray-400: #ced4da !default;
+  $gray-500: #adb5bd !default;
+  $gray-600: #868e96 !default;
+  $gray-700: #495057 !default;
+  $gray-800: #343a40 !default;
+  $gray-900: #212529 !default;
+  $black:  #000 !default;
+  
+  $grays: (
+    100: $gray-100,
+    200: $gray-200,
+    300: $gray-300,
+    400: $gray-400,
+    500: $gray-500,
+    600: $gray-600,
+    700: $gray-700,
+    800: $gray-800,
+    900: $gray-900
+  ) !default;
+  
+  $blue:   #1297ec;
+  $indigo: #6610f2 !default;
+  $purple: #6f42c1 !default;
+  $pink:   #e83e8c !default;
+  $red:    #dc3545 !default;
+  $orange: #fd7e14 !default;
+  $yellow: #ffc107 !default;
+  $green:  #28a745 !default;
+  $teal:   #20c997 !default;
+  $cyan:   #17a2b8 !default;
+  
+  $colors: (
+    blue: $blue,
+    indigo: $indigo,
+    purple: $purple,
+    pink: $pink,
+    red: $red,
+    orange: $orange,
+    yellow: $yellow,
+    green: $green,
+    teal: $teal,
+    cyan: $cyan,
+    white: $white,
+    gray: $gray-600,
+    gray-dark: $gray-800
+  ) !default;
+  
+  $theme-colors: (
+    primary: $blue,
+    secondary: $gray-600,
+    success: $green,
+    info: $cyan,
+    warning: $yellow,
+    danger: $red,
+    light: $gray-100,
+    dark: $gray-800
+  ) !default;
+  
+  // Links
+  //
+  // Style anchor elements.
+  $link-hover-decoration: none;
+  
+  
+  // App Colors
+  $sales:     #FBC02D;
+  $incomes:   #009688;
+  $expenses:  #C64F4F;
+  $inventory: #C0CA33;
+  $reports:   #A1A0F9;
+  $images:    #00BCA8;
+  $users:     #3FB235;
+  $location:  #E6410B;
+  
+  // Forms
+  $enable-shadows: true;
+  $input-bg: #EDF2F4;
+  $input-disabled-bg: #F3F3F3;
+  $input-color: #555;
+  $input-border-color: #EDF2F4;
+  $input-btn-border-width: 0;
+  $input-box-shadow: none;
+  $input-border-radius: 0;
+  $input-focus-bg: #F5FAFC;
+  $input-focus-border-color: #F5FAFC;
+  $input-focus-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #BFBFBF;
+  
+  // Buttons
+  $btn-border-radius:    1rem;
+  $btn-border-radius-lg: 1rem;
+  $btn-border-radius-sm: 1rem;
+  
